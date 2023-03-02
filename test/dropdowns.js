@@ -5,21 +5,21 @@ let downloadSystem = (v, d) => {
 let versionObject64 = {
     "Infdev": {
         "Infdev 20100227 (Maxxx)": [
-            downloadSystem("v1","./mods/64bit/infdev/inf-20100227/minecraft-inf-20100227-v1-maxxx.zip"),
+            downloadSystem("v1","../mods/64bit/infdev/inf-20100227/minecraft-inf-20100227-v1-maxxx.zip"),
         ],
         "Infdev 20100313 (RVH)": [
             // Todo: add notes system
             {
                 version: "v0.0.1",
-                download: "./mods/64bit/infdev/inf-20100313/inf313_long_0.0.1.zip",
+                download: "../mods/64bit/infdev/inf-20100313/inf313_long_0.0.1.zip",
             },
             {
                 version: "v0.0.2",
-                download: "./mods/64bit/infdev/inf-20100313/inf313_long_0.0.2.zip",
+                download: "../mods/64bit/infdev/inf-20100313/inf313_long_0.0.2.zip",
             },
             {
                 version: "v0.0.3",
-                download: "./mods/64bit/infdev/inf-20100313/inf313_long_0.0.3.zip"
+                download: "../mods/64bit/infdev/inf-20100313/inf313_long_0.0.3.zip"
             }
         ],
         "Infdev 20100325 (Maxxx)": [],
@@ -49,6 +49,7 @@ function onchangeDropdown(value) {
 }
 
 function onchangeDownloads() {
+    document.getElementById("downloads64-box").innerHTML = "";
     let value = versionObject64[downloads.value][downloads.value]
     for (let i = 0; i < value.length; i++)
         document.getElementById("downloads64-box").innerHTML += "<a href=" + value[i].download + ">" + value[i].version + "</a><br />";
