@@ -77,7 +77,7 @@ let versionObject64 = {
 let downloads=document.getElementById("downloads64");
 let dropdown=document.getElementById("phase");
 function onchangeDropdown(value) {
-    downloads.length = 1;
+    downloads.innerHTML = "";
     downloads.hidden = false;
     for (let val in versionObject64[value]) {
         downloads.options[downloads.options.length] = new Option(val, val);
