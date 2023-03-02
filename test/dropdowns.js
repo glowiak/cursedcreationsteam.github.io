@@ -1,4 +1,4 @@
-let dropdownMenu = document.getElementById("dropdown")
+let dropdownMenu = document.getElementById("phase")
 let downloads = document.getElementById("dl")
 let versionObject64 = {
     "Infdev": {
