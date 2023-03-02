@@ -47,7 +47,8 @@ function onchangeDropdown(value) {
     }
 }
 
-function onchangeDownloads(value) {
+function onchangeDownloads() {
+    let value = versionObject64[document.getElementById("phase").value][document.getElementById("downloads64").value]
     for (let i = 0; i < value.length; i++)
         document.getElementById("downloads64-box").innerHTML += "<a href=" + value[i].download + ">" + value[i].version + "</a><br />";
 }
