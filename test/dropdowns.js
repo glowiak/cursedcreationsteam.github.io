@@ -1,5 +1,5 @@
 let dropdownMenu = document.getElementById("phase")
-let downloads = document.getElementById("dl")
+let downloads = document.getElementById("downloads64")
 let versionObject64 = {
     "Infdev": {
         "Infdev 20100227 (Maxxx)": {
@@ -28,16 +28,24 @@ let versionObject64 = {
         },
     },
     "Alpha": {
-        "Alpha v1.0.1_01 (Zeta and Zero)": {
-            "0.0.3_02": "./mods/64bit/alpha/a1.0.1_01/minecraft-a1.0.1_01-64bit_v0.0.3_02-zero-and-zeta.zip",
-        },
+        "Alpha v1.0.1_01 (Zeta and Zero)": [
+            {
+                version: "0.0.3_02",
+                download: "./mods/64bit/alpha/a1.0.1_01/minecraft-a1.0.1_01-64bit_v0.0.3_02-zero-and-zeta.zip",
+            }
+        ],
     }
 }
 
 
 function onchangeDropdown(value) {
-    dl.hidden = false;
+    downloads.hidden = false;
     for (let val in versionObject64[value]) {
-        dl.options[dl.options.length] = new Option(val, val);
+        downloads.options[downloads.options.length] = new Option(val, val);
     }
+}
+
+function onchangeDownloads(value) {
+    for (let i = 0; i < value.length; i++)
+        document.getElementById("downloads64-box").innerHTML += "<a href=" + value[i].download + ">" + value[i].version + "</a>";
 }
