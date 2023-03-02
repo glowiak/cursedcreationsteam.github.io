@@ -1,5 +1,3 @@
-let dropdownMenu = document.getElementById("phase")
-let downloads = document.getElementById("downloads64")
 let versionObject64 = {
     "Infdev": {
         "Infdev 20100227 (Maxxx)": {
@@ -39,6 +37,7 @@ let versionObject64 = {
 
 
 function onchangeDropdown(value) {
+    let downloads=document.getElementById("downloads64");
     downloads.hidden = false;
     for (let val in versionObject64[value]) {
         downloads.options[downloads.options.length] = new Option(val, val);
