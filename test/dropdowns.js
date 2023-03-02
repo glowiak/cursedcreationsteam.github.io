@@ -38,9 +38,10 @@ let versionObject64 = {
     }
 }
 
-
+let downloads=document.getElementById("downloads64");
+let dropdown=document.getElementById("phase");
 function onchangeDropdown(value) {
-    let downloads=document.getElementById("downloads64");
+    downloads.length = 1;
     downloads.hidden = false;
     for (let val in versionObject64[value]) {
         downloads.options[downloads.options.length] = new Option(val, val);
@@ -48,7 +49,7 @@ function onchangeDropdown(value) {
 }
 
 function onchangeDownloads() {
-    let value = versionObject64[document.getElementById("phase").value][document.getElementById("downloads64").value]
+    let value = versionObject64[downloads.value][downloads.value]
     for (let i = 0; i < value.length; i++)
         document.getElementById("downloads64-box").innerHTML += "<a href=" + value[i].download + ">" + value[i].version + "</a><br />";
 }
