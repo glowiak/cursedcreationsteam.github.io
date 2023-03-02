@@ -1,4 +1,4 @@
-let dropdown = document.getElementById("dropdown")
+let dropdownMenu = document.getElementById("dropdown")
 let downloads = document.getElementById("dl")
 let versionObject64 = {
     "Infdev": {
@@ -33,18 +33,11 @@ let versionObject64 = {
         },
     }
 }
-dropdown.onchange = () => {
+
+
+function onchangeDropdown(value) {
     dl.hidden = false;
-    for (let val in versionObject64[this.value]) {
+    for (let val in versionObject64[value]) {
         dl.options[dl.options.length] = new Option(val, val);
     }
-}
-window.onload = () => {
-
-}
-let button = document.getElementById("button64")
-button.addEventListener(execute)
-
-function execute() {
-    
 }
