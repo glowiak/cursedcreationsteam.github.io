@@ -75,17 +75,23 @@ let versionObject64 = {
 }
 */
 
-function onchangeDropdown(value) {
-    document.getElementById("downloads64").options.length=0
-    document.getElementById("downloads64").hidden = false;
-    for (let val in versionObject64[value]) {
-        document.getElementById("downloads64").options[document.getElementById("downloads64").options.length] = new Option(val, val);
-    }
+const d64 = document.getElementById("downloads64")
+const d64box = document.getElementById("downloads64-box")
+const phase = document.getElementById("phase")
+function changeDropdown(value) {
+  d64.hidden = false
+  d64.innerHTML = ""
+  for (let val in versionObject64[value])
+    d64.append(new Option(val, val))
 }
 
-function onchangeDownloads() {
-    document.getElementById("downloads64-box").innerHTML = "";
-    let value = versionObject64[document.getElementById("phase").value][document.getElementById("downloads64").value]
-    for (let i = 0; i < value.length; i++)
-        document.getElementById("downloads64-box").innerHTML += "<a href=" + value[i].download + ">" + value[i].version + "</a><br />";
+function changeDownloads() {
+  d64box.innerHTML = ""
+  for(const value of versionObject64[phase.value][d64.value]){
+    const a = document.createElement('a')
+    a.href = value.download
+    a.textContent = value.version
+    d64box.append(a)
+    d64box.append(document.createElement('br'))
+  }
 }
