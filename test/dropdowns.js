@@ -79,6 +79,7 @@ function changeDropdown(value) {
   d64.innerHTML = ""
   for (let val in versionObject64[value])
     d64.append(new Option(val, val))
+  changeDownloads()
 }
 
 function changeDownloads() {
