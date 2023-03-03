@@ -74,19 +74,18 @@ let versionObject64 = {
     }
 }
 */
-let downloads=document.getElementById("downloads64");
-let dropdown=document.getElementById("phase");
+
 function onchangeDropdown(value) {
     document.getElementById("downloads64").options = [];
-    downloads.hidden = false;
+    document.getElementById("downloads64").hidden = false;
     for (let val in versionObject64[value]) {
-        downloads.options[downloads.options.length] = new Option(val, val);
+        document.getElementById("downloads64").options[document.getElementById("downloads64").options.length] = new Option(val, val);
     }
 }
 
 function onchangeDownloads() {
     document.getElementById("downloads64-box").innerHTML = "";
-    let value = versionObject64[downloads.value][downloads.value]
+    let value = versionObject64[document.getElementById("phase").value][document.getElementById("downloads64").value]
     for (let i = 0; i < value.length; i++)
         document.getElementById("downloads64-box").innerHTML += "<a href=" + value[i].download + ">" + value[i].version + "</a><br />";
 }
