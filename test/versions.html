@@ -43,14 +43,14 @@
 		<!-- Maybe add a dropdown menu to stupidly long lists? (128bit, 1.12.2, 1.2.5, etc) -->
 		<ul>
 			<h3> Select version: </h3>
-			<select id="phase" name="versions64" onchange="onchangeDropdown(this.value)">
+			<select id="phase" name="versions64" onchange="changeDropdown(this.value)">
 				<option>Phase</option>
 				<option value="Infdev">Infdev</option>
 				<option value="Alpha">Alpha</option>
 				<option value="Beta">Beta</option>
 				<option value="Release">Release</option>
 			</select>
-			<select id="downloads64" onchange="onchangeDownloads()" hidden><option>Version</option></select>
+			<select id="downloads64" onchange="changeDownloads()" hidden><option>Version</option></select>
 			<p id="downloads64-box"></p>
 		</ul>
 		<h1 id="unlimitedmc"> Unlimited Worldgen ("128 bit")</h1>
