@@ -76,7 +76,7 @@ let versionObject64 = {
 */
 
 function onchangeDropdown(value) {
-    document.getElementById("downloads64").options = [];
+    document.getElementById("downloads64").options = new Array();
     document.getElementById("downloads64").hidden = false;
     for (let val in versionObject64[value]) {
         document.getElementById("downloads64").options[document.getElementById("downloads64").options.length] = new Option(val, val);
