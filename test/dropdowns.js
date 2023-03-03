@@ -1,11 +1,7 @@
-let downloadSystem = (v, d) => {
-    return {version: v, download: d};
-}
-
 let versionObject64 = {
     "Infdev": {
         "Infdev 20100227 (Maxxx)": [
-            downloadSystem("v1","../mods/64bit/infdev/inf-20100227/minecraft-inf-20100227-v1-maxxx.zip"),
+            {version: "v1", download: "../mods/64bit/infdev/inf-20100227/minecraft-inf-20100227-v1-maxxx.zip"},
         ],
         "Infdev 20100313 (RVH)": [
             // Todo: add notes system
