@@ -1,0 +1,294 @@
+{
+    "Pre-classic": {
+        "rd-161348 (mckuhei, incompleted, use float not double)": [
+            {
+                "version": "Official release",
+                "download": "https://mckuhei.mcmodule.org/MinecraftHacks/64bit/rd-161348"
+            }
+        ]
+    },
+    "Classic": {
+        "Classic 0.30c (mckuhei)": [
+            {
+                "version": "Official release (UNSUPPORTED!)",
+                "download": "https://mckuhei.mcmodule.org/MinecraftHacks/64bit/unsupported/Classic/"
+            }
+        ]
+    },
+    "Indev": {
+        "Indev 20100223 (mckuhei)": [
+            {
+                "version": "Official release (UNSUPPORTED!)",
+                "download": "https://mckuhei.mcmodule.org/MinecraftHacks/64bit/unsupported/Indev/"
+            }
+        ]
+    },
+    "Infdev": {
+        "Infdev 20100227 (Maxxx)": [
+            {
+              "version": "v1", 
+              "download": "/mods/64bit/infdev/inf-20100227/minecraft-inf-20100227-v1-maxxx.zip"
+            }
+        ],
+        "Infdev 20100313 (RVH)": [
+            {
+                "version": "v0.0.1 (Untested for any destructive bugs)",
+                "download": "/mods/64bit/infdev/inf-20100313/inf313_long_0.0.1.zip"
+            },
+            {
+                "version": "v0.0.2 (Untested for any destructive bugs)",
+                "download": "/mods/64bit/infdev/inf-20100313/inf313_long_0.0.2.zip"
+            },
+            {
+                "version": "v0.0.3",
+                "download": "/mods/64bit/infdev/inf-20100313/inf313_long_0.0.3.zip"
+            },
+            {
+                "version": "v0.0.4",
+                "download": "/mods/64bit/infdev/inf-20100313/inf313_long_0.0.4.zip"
+            }
+        ],
+        "Infdev 20100325 (Maxxx)": [
+            {
+                "version": "v1.0 (UNAVAILABLE)",
+                "download": "javascript: alert('Unavailable');"
+            },
+            {
+                "version": "v1.1 (UNAVAILABLE)",
+                "download": "javascript: alert('Unavailable');"
+            },
+            {
+                "version": "v1.2 (UNAVAILABLE)",
+                "download": "javascript: alert('Unavailable');"
+            },
+            {
+                "version": "v1.3",
+                "download": "/mods/64bit/infdev/inf-20100325/minecraft-inf-20100325-v1.3-maxxx.zip"
+            },
+            {
+                "version": "v1.4",
+                "download": "/mods/64bit/infdev/inf-20100325/minecraft-inf-20100325-v1.4-maxxx.zip"
+            }
+        ],
+        "Infdev 20100330 (Zero)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/infdev/inf-20100330/minecraft-inf-20100330-v1-zero.zip"
+            }
+        ],
+        "Infdev 20100414 (314rft)": [
+            {
+                "version": "0.0.7_02",
+                "download": "/mods/64bit/infdev/inf-20100414/0.0.7_02-modzip.zip"
+            }
+        ],
+        "Infdev 20100420 (314rft, Zero)": [
+            {
+                "name": "v2.0 (314rft)",
+                "download": "/mods/64bit/infdev/inf-20100420/minecraft_inf-20100420_64bit_v2_314rft.zip"
+            },
+            {
+                "name": "v1.0 (Zero)",
+                "download   ": "/mods/64bit/infdev/inf-20100420/minecraft-inf-20100420-v1-zero.zip"
+            }
+        ],
+        "Infdev 20100624 (314rft)": [
+            {
+                "name": "v1.0",
+                "download": "/mods/64bit/infdev/inf-20100624/minecraft_inf-20100624_64bit_v1_314rft.zip"
+            }
+        ]
+    },
+    "Alpha": {
+        "Alpha v1.0.1_01 (Zeta and Zero)": [
+            {
+                "version": "0.0.3_02",
+                "download": "/mods/64bit/alpha/a1.0.1_01/minecraft-a1.0.1_01-64bit_v0.0.3_02-zero-and-zeta.zip"
+            }
+        ],
+        "Alpha v1.0.6_03 (314rft)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/alpha/a1.0.6_03/minecraft_a1.0.6_03_64bit_v1_314rft.zip"
+            }
+        ],
+        "Alpha v1.0.13_01 (314rft)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/alpha/a1.0.13_01/minecraft_a1.0.13_01_64bit_v1_314rft.zip"
+            }
+        ],
+        "Alpha v1.1.1 (314rft)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/alpha/a1.1.1/minecraft_a111_64bit_v1_314rft.zip"
+            }
+        ],
+        "Alpha v1.1.2 (314rft)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/alpha/a1.1.2/minecraft_a112_64bit_v1_314rft.zip"
+            }
+        ],
+        "Alpha v1.1.2_01 (314rft, Zero)": [
+            {
+                "version": "v1.1(314rft)",
+                "download": "/mods/64bit/alpha/a1.1.2_01/minecraft_a1.1.2_01_64bit_v1.1_314rft.zip"
+            },
+            {
+                "version": "v1.0 (Zero) (Client)",
+                "download": "/mods/64bit/alpha/a1.1.2_01/minecraft-a1.1.2_01-v1-zero.zip"
+            },
+            {
+                "version": "v1.0 (Zero) (Server)",
+                "download": "/mods/64bit/alpha/a1.1.2_01/minecraft_server-a1.1.2_01-v1-zero.zip"
+            }
+        ]
+    },
+    "Beta": {
+        "Beta 1.1_02 (Zero)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/beta/b1.1_02/minecraft-b1.1_02-v1-zero.zip"
+            }
+        ],
+        "Beta 1.2_02 + Aether (314rft)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/beta/b1.2_02-aether/minecraft_b1.2_02_64bit_aether_v3_314rft.zip"
+            }
+        ],
+        "Beta 1.7.3 (RVH, Zero)": [
+            {
+                "version": "v1.0 (Zero)",
+                "download": "/mods/64bit/beta/b1.7.3/minecraft-b1.7.3-v1-zero.zip"
+            },
+            {
+                "version": "v1.0 (Untested for any destructive bugs)",
+                "download": "/mods/64bit/beta/b1.7.3/b1.7.3LongV1.zip"
+            },
+            {
+                "version": "v2.0 (Untested for any destructive bugs)",
+                "download": "/mods/64bit/beta/b1.7.3/b1.7.3LongV2.zip"
+            }
+        ]
+    },
+    "Release": {
+        "1.0.0 (314rft)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/release/1.0.0/minecraft_1.0.0_64bit_v1_314rft.zip"
+            },
+            {
+                "version": "v2.0",
+                "download": "/mods/64bit/release/1.0.0/minecraft_1.0.0_64bit_v1_314rft.zip"
+            }
+        ],
+        "1.2.5 (314rft)": [
+            {
+                "version": "v2.0",
+                "download": "/mods/64bit/release/1.2.5/1_2_5_64bitcoords_v2.zip"
+            },
+            {
+                "version": "v3.0",
+                "download": "/mods/64bit/release/1.2.5/1_2_5_64bitcoords_v3.zip"
+            },
+            {
+                "version": "v4.0",
+                "download": "/mods/64bit/release/1.2.5/1_2_5_64bitcoords_v4.zip"
+            },
+            {
+                "version": "v5.0",
+                "download": "/mods/64bit/release/1.2.5/1_2_5_64bitcoords_v5.zip"
+            },
+            {
+                "version": "v6.0",
+                "download": "/mods/64bit/release/1.2.5/1_2_5_64bitcoords_v6.zip"
+            },
+            {
+                "version": "v6.1",
+                "download": "/mods/64bit/release/1.2.5/1_2_5_64bitcoords_v6_1.zip"
+            }
+        ],
+        "1.5.2 (Zero)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/release/1.5.2/minecraft-1.5.2-64bit-v1-zero.zip"
+            },
+            {
+                "version": "v1.1",
+                "download": "/mods/64bit/release/1.5.2/minecraft-1.5.2-64bit-v1.1-zero.zip"
+            },
+            {
+                "version": "v1.2",
+                "download": "/mods/64bit/release/1.5.2/minecraft-1.5.2-64bit-v1.2-zero.zip"
+            }
+        ],
+        "1.6.4 (Zero)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/release/1.6.4/minecraft-1.6.4-64bit-v1-zero.zip"
+            }
+        ],
+        "1.8 (Zero)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/release/1.8/minecraft-1.8-64bit-v1-zero.zip"
+            },
+            {
+                "version": "v2.0",
+                "download": "/mods/64bit/release/1.8/minecraft-1.8-64bit-v2-zero.zip"
+            },
+            {
+                "version": "v3.0",
+                "download": "/mods/64bit/release/1.8/minecraft-1.8-64bit-v3-zero.zip"
+            }
+        ],
+        "1.9 (Zero)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/release/1.9/minecraft-1.9-64bit-v1-fixed-fixed-fixed-fixed-fixed-fixed-fixed-zero.zip"
+            }
+        ],
+        "1.10.2 (Zero)": [
+            {
+                "version":"v1.0",
+                "download": "/mods/64bit/release/1.10.2/minecraft-1.10.2-64bit-v1-zero.zip"
+            }
+        ],
+        "1.11.2 (Zero)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/release/1.11.2/minecraft-1.11.2-64bit-v1-zero.zip"
+            }
+        ],
+        "1.12.2 (Zero)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/64bit/release/1.12.2/minecraft1.12.2-64bit-V1.zip"
+            },
+            {
+                "version": "v2.0",
+                "download": "/mods/64bit/release/1.12.2/minecraft1.12.2-64bit-V2.zip"
+            },
+            {
+                "version": "v2.5",
+                "download": "/mods/64bit/release/1.12.2/minecraft1.12.2-64bit-V2.5.zip"
+            },
+            {
+                "version": "v2.75",
+                "download": "/mods/64bit/release/1.12.2/minecraft1.12.2-64bit-V2.75.zip"
+            },
+            {
+                "version": "v3.0",
+                "download": "/mods/64bit/release/1.12.2/minecraft1.12.2-64bit-V3.zip"
+            }
+        ],
+        "1.19.2 (mckuhei)": [
+            {
+                "version": "Official release",
+                "download": "https://mckuhei.mcmodule.org/MinecraftHacks/64bit/1.19.2/"
+            }
+        ]
+    }
+}
