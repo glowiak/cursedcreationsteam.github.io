@@ -84,17 +84,17 @@
         ],
         "Infdev 20100420 (314rft, Zero)": [
             {
-                "name": "v2.0 (314rft)",
+                "version": "v2.0 (314rft)",
                 "download": "/mods/64bit/infdev/inf-20100420/minecraft_inf-20100420_64bit_v2_314rft.zip"
             },
             {
-                "name": "v1.0 (Zero)",
+                "version": "v1.0 (Zero)",
                 "download   ": "/mods/64bit/infdev/inf-20100420/minecraft-inf-20100420-v1-zero.zip"
             }
         ],
         "Infdev 20100624 (314rft)": [
             {
-                "name": "v1.0",
+                "version": "v1.0",
                 "download": "/mods/64bit/infdev/inf-20100624/minecraft_inf-20100624_64bit_v1_314rft.zip"
             }
         ]
