@@ -79,7 +79,7 @@
 								types.push(type);
 								$("#type-dropdown").append("<option>" + type + "</option>");
 							});
-							// Hide if there is only have server.
+							// Hide if there is only have client.
 							if(types.length == 1 && types[0] == "Client") $("#type-dropdown").attr("hidden", true);
 							$("#type-dropdown").change();
 						});
