@@ -45,6 +45,8 @@
 			<noscript>Please enable JavaScript</noscript>
 			<select id="phase-dropdown" hidden></select>
 			<select id="downloads-dropdown" hidden></select>
+			<!-- <select id="clientorserver-dropdown" hidden></select> -->
+			<!-- See below todo -->
 			<p id="downloads-box"><span>Loading...</span></p>
 			<script>
 				let versions = null;
@@ -60,6 +62,10 @@
 							});
 							$("#downloads-dropdown").change();
 						});
+						// TODO: add new dropdown button for client/server downloads
+						// $("#clientorserver-dropdown").change(e => {
+						// 	$("")
+						// });
 						$("#downloads-dropdown").change(e => {
 							$("#downloads-box").children().remove();
 							versions[$("#phase-dropdown").val()][$("#downloads-dropdown").val()].forEach(element => {
