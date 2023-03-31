@@ -45,7 +45,7 @@
 			<noscript>Please enable JavaScript</noscript>
 			<select id="phase-dropdown" hidden></select>
 			<select id="downloads-dropdown" hidden></select>
-			<!-- <select id="clientorserver-dropdown" hidden></select> -->
+			<select id="type-dropdown" hidden></select>
 			<!-- See below todo -->
 			<p id="downloads-box"><span>Loading...</span></p>
 			<script>
@@ -62,15 +62,25 @@
 							});
 							$("#downloads-dropdown").change();
 						});
-						// TODO: add new dropdown button for client/server downloads
-						// $("#clientorserver-dropdown").change(e => {
-						// 	$("")
-						// });
-						$("#downloads-dropdown").change(e => {
+						$("#type-dropdown").change(e => {
+							let target = $("#type-dropdown").val();
 							$("#downloads-box").children().remove();
 							versions[$("#phase-dropdown").val()][$("#downloads-dropdown").val()].forEach(element => {
+								if((element.type == undefined ? "Client" : element.type) != target) return;
 								$("#downloads-box").append("<li><a href=\"" + element.download + "\">" + element.version + "</a></li>");
 							});
+						});
+						$("#downloads-dropdown").change(e => {
+							$("#type-dropdown").removeAttr("hidden").children().remove();
+							let types = [];
+							versions[$("#phase-dropdown").val()][$("#downloads-dropdown").val()].forEach(element => {
+								let type = element.type == undefined ? "Client" : element.type;
+								if(types.includes(type)) return;
+								types.push(type);
+								$("#type-dropdown").append("<option>" + type + "</option>");
+							});
+							if(types.length == 1) $("#type-dropdown").attr("hidden", true);
+							$("#type-dropdown").change();
 						});
 						Object.keys(result).forEach(element => {
 							$("#phase-dropdown").append("<option>" + element + "</option>");

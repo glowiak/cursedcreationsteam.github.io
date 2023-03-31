@@ -161,9 +161,12 @@
             },
             {
                 "version": "v3.1",
-                "download": "/mods/64bit/release/1.0.0/minecraft_1.0.0_64bit_v3.1_314rft.zip",
-                "version-server": "v2.2 (SERVER)",
-                "download-server": "/mods/64bit/release/1.0.0/minecraft_server_1.0.0_64bit_v2.2_314rft.zip"
+                "download": "/mods/64bit/release/1.0.0/minecraft_1.0.0_64bit_v3.1_314rft.zip"
+            },
+            {
+                "version": "v2.2 (SERVER)",
+                "download": "/mods/64bit/release/1.0.0/minecraft_server_1.0.0_64bit_v2.2_314rft.zip",
+                "type": "Server"
             }
         ],
         "1.2.5 (314rft)": [
