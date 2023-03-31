@@ -117,7 +117,8 @@
             },
             {
                 "version": "v1.0 (Zero) (Server)",
-                "download": "/mods/64bit/alpha/a1.1.2_01/minecraft_server-a1.1.2_01-v1-zero.zip"
+                "download": "/mods/64bit/alpha/a1.1.2_01/minecraft_server-a1.1.2_01-v1-zero.zip",
+                "type": "Server"
             }
         ]
     },

@@ -79,7 +79,8 @@
 								types.push(type);
 								$("#type-dropdown").append("<option>" + type + "</option>");
 							});
-							if(types.length == 1) $("#type-dropdown").attr("hidden", true);
+							// Hide if there is only have server.
+							if(types.length == 1 && types[0] == "Cliet") $("#type-dropdown").attr("hidden", true);
 							$("#type-dropdown").change();
 						});
 						Object.keys(result).forEach(element => {
