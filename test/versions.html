@@ -49,6 +49,40 @@
 			<!-- See below todo -->
 			<p id="downloads-box"><span>Loading...</span></p>
 			<script>
+				var entityMap = {
+					escape: {
+						'&': '&amp;',
+						'<': '&lt;'  ,
+						'>': '&gt;'  ,
+						'"': '&quot;',
+						"'": '&apos;',
+					},
+					unescape: {
+						'&amp;':  "&",
+						'&apos;': "'",
+						'&gt;':   ">",
+						'&lt;':   "<",
+						'&quot;': '"',
+					}
+				};
+				var entityReg = {
+					escape: RegExp('[' + Object.keys(entityMap.escape).join('') + ']', 'g'),
+					unescape: RegExp('(' + Object.keys(entityMap.unescape).join('|') + ')', 'g')
+				};
+				// 将HTML转义为实体
+				function escapeHtml(html) {
+					if (typeof html !== 'string') return '';
+					return html.replace(entityReg.escape, function(match) {
+						return entityMap.escape[match];
+					});
+				}
+				// 将实体转回为HTML
+				function unescapeHtml(str) {
+					if (typeof str !== 'string') return '';
+					return str.replace(entityReg.unescape, function(match) {
+						return entityMap.unescape[match];
+					});
+				}
 				let versions = null;
 				$.ajax({
 					url: "./versions.json",
@@ -58,7 +92,7 @@
 						$("#phase-dropdown").change(e => {
 							$("#downloads-dropdown").removeAttr("hidden").children().remove();
 							Object.keys(versions[e.target.value]).forEach(element => {
-								$("#downloads-dropdown").append("<option>" + element + "</option>");
+								$("#downloads-dropdown").append("<option>" + escapeHtml(element) + "</option>");
 							});
 							$("#downloads-dropdown").change();
 						});
@@ -67,7 +101,7 @@
 							$("#downloads-box").children().remove();
 							versions[$("#phase-dropdown").val()][$("#downloads-dropdown").val()].forEach(element => {
 								if((element.type == undefined ? "Client" : element.type) != target) return;
-								$("#downloads-box").append("<li><a href=\"" + element.download + "\">" + element.version + "</a></li>");
+								$("#downloads-box").append("<li><a href=\"" + element.download + "\">" + escapeHtml(element.version) + "</a></li>");
 							});
 						});
 						$("#downloads-dropdown").change(e => {
@@ -77,14 +111,14 @@
 								let type = element.type == undefined ? "Client" : element.type;
 								if(types.includes(type)) return;
 								types.push(type);
-								$("#type-dropdown").append("<option>" + type + "</option>");
+								$("#type-dropdown").append("<option>" + escapeHtml(type) + "</option>");
 							});
 							// Hide if there is only have client.
 							if(types.length == 1 && types[0] == "Client") $("#type-dropdown").attr("hidden", true);
 							$("#type-dropdown").change();
 						});
 						Object.keys(result).forEach(element => {
-							$("#phase-dropdown").append("<option>" + element + "</option>");
+							$("#phase-dropdown").append("<option>" + escapeHtml(element) + "</option>");
 						});
 						$("#phase-dropdown").removeAttr("hidden").change();
 					}
