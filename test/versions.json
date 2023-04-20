@@ -1,4 +1,28 @@
 {
+    "Pre-classic": {
+        "rd-161348 (mckuhei, incompleted, use float not double)": [
+            {
+                "version": "Official release",
+                "download": "https://mckuhei.mcmodule.org/MinecraftHacks/64bit/rd-161348"
+            }
+        ]
+    },
+    "Classic": {
+        "Classic 0.30c (mckuhei)": [
+            {
+                "version": "Official release (UNSUPPORTED!)",
+                "download": "https://mckuhei.mcmodule.org/MinecraftHacks/64bit/unsupported/Classic/"
+            }
+        ]
+    },
+    "Indev": {
+        "Indev 20100223 (mckuhei)": [
+            {
+                "version": "Official release (UNSUPPORTED!)",
+                "download": "https://mckuhei.mcmodule.org/MinecraftHacks/64bit/unsupported/Indev/"
+            }
+        ]
+    },
     "Infdev": {
         "Infdev 20100227 (Maxxx)": [
             {
@@ -268,6 +292,12 @@
             {
                 "version": "v3.0",
                 "download": "/mods/64bit/release/1.12.2/minecraft1.12.2-64bit-V3.zip"
+            }
+        ],
+        "1.19.2 (mckuhei)": [
+            {
+                "version": "Official release",
+                "download": "https://mckuhei.mcmodule.org/MinecraftHacks/64bit/1.19.2/"
             }
         ]
     }
