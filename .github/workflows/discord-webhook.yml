@@ -15,4 +15,7 @@ jobs:
       uses: tsickert/discord-webhook@v5.3.0
       with:
         webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        raw-data: discord-webhook.json
+        embed-title: ${{ github.event.head_commit.message }}
+        embed-description: "A new commit has been pushed to the repository."
+        username: "Github Actions"
+        avatar-url: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
