@@ -97,6 +97,33 @@
                 "version": "v1.0",
                 "download": "/mods/64bit/infdev/inf-20100624/minecraft_inf-20100624_64bit_v1_314rft.zip"
             }
+        ],
+        "Infdev 20100630 (Zero)": [
+            {
+                "version": "v1.0",
+                "download": "/mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.0-zero.zip",
+                "type": "BigInteger"
+            },
+            {
+                "version": "v1.1",
+                "download": "/mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.1-zero.zip",
+                "type": "BigInteger"
+            },
+            {
+                "version": "v1.2",
+                "download": "/mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.2-zero.zip",
+                "type": "BigInteger"
+            },
+            {
+                "version": "v1.3",
+                "download": "/mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.3-zero.zip",
+                "type": "BigInteger"
+            },
+            {
+                "version": "v1.35",
+                "download": "/mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.35-zero.zip",
+                "type": "BigInteger"
+            }
         ]
     },
     "Alpha": {

@@ -4,6 +4,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Cursed Creations | Mod Archive</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 	</head>
 	<body>
 		<!-- Header -->
@@ -19,7 +20,7 @@
 							<a class="nav-link" href="index.html">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="versions.html">Versions</a>
+							<a class="nav-link active" aria-current="page" href="downloads.html">Versions</a>
 						</li>
                         <li class="nav-item">
                             <a class="nav-link" href="wiki.html">Wiki</a>
@@ -29,7 +30,7 @@
 			</div>
 		</nav>
 		<br>
-		<h1 id="version-header">Minecraft: Expanded Worlds</h1>
+		<h1 id="version-header">Minecraft: Expanded Worldgen</h1>
 		<p>These are special mods that expand Minecraft beyond the 32bit integer limit.
 			For any support, contact the Cursed Creations team at <a href="https://discord.gg/gBXj5j55uf">https://discord.gg/gBXj5j55uf</a>
 		</p>
@@ -37,260 +38,110 @@
 		See wiki: <a href="wiki.html#how-to-install">https://cursedcreationsteam.github.io/wiki#how-to-install</a>
         <br>
         <br>
-		<h2 id="downloads">
+		<h2 id="downloads-section">
 		Downloads | 64bit</h1>
-		<!-- Maybe add a dropdown menu to stupidly long lists? (128bit, 1.12.2, 1.2.5, etc) -->
 		<ul>
-			<h3>Preclassic: </h3>
-			<ul>
-				<h4><li>rd-161348 (mckuhei, incompleted, use float not double)</li></h4>
-				<ul>
-					<li><a id="rd-161348" href="http://mckuhei.mcmodule.org/MinecraftHacks/64bit/rd-161348">Official release</a></li>
-				</ul>
-			</ul>
-			<h3>Classic: </h3>
-			<ul>
-				<h4>
-					<li>Classic 0.30c (mckuhei)</li>
-				</h4>
-				<ul>
-					<li><a id="c0.30c-64" href="http://mckuhei.mcmodule.org/MinecraftHacks/64bit/unsupported/Classic/">Official release (UNSUPPORTED!)</a></li>
-				</ul>
-			</ul>
-			<h3>Indev: </h3>
-			<ul>
-				<h4>
-					<li>Indev 20100223 (mckuhei)</li>
-				</h4>
-				<ul>
-					<li><a id="in-20100223-64" href="http://mckuhei.mcmodule.org/MinecraftHacks/64bit/unsupported/Indev/">Official release (UNSUPPORTED!)</a></li>
-				</ul>
-			</ul>
-			<h3>Infdev: </h3>
-			<ul>
-				<h4>
-					<li>Infdev 20100227-2 (Maxxx)</li>
-				</h4>
-				<ul>
-					<li><a id="inf-20100227-2-64" href="./mods/64bit/infdev/inf-20100227/minecraft-inf-20100227-v1-maxxx.zip">v1.0</a></li>
-				</ul>
-				<h4>
-					<li>Infdev 20100313 (RVH)</li>
-				</h4>
-				<ul>
-                    <li>Note from RVH: 0.0.1 and 0.0.2 are untested for any destructive bugs.</li>
-					<li><a id="inf-20100313-64" href="./mods/64bit/infdev/inf-20100313/inf313_long_0.0.1.zip">v0.0.1</a></li>
-					<li><a href="./mods/64bit/infdev/inf-20100313/inf313_long_0.0.2.zip">v0.0.2</a></li>
-					<li><a href="./mods/64bit/infdev/inf-20100313/inf313_long_0.0.3.zip">v0.0.3</a></li>
-					<li><a href="./mods/64bit/infdev/inf-20100313/inf313_long_0.0.4.zip">v0.0.4</a></li>
-				</ul>
-				<h4>
-					<li>Infdev 20100325 (Maxxx)</li>
-				</h4>
-				<ul>
-					<li><a id="inf-20100325-64" href="">v1.0 (UNAVAILABLE)</a></li>
-					<li><a href="">v1.1 (UNAVAILABLE)</a></li>
-					<li><a href="">v1.2 (UNAVAILABLE)</a></li>
-					<li><a href="./mods/64bit/infdev/inf-20100325/minecraft-inf-20100325-v1.3-maxxx.zip">v1.3</a></li>
-					<li><a href="./mods/64bit/infdev/inf-20100325/minecraft-inf-20100325-v1.4-maxxx.zip">v1.4</a></li>
-				</ul>
-				<h4>
-					<li>Infdev 20100330 (Zero)</li>
-				</h4>
-				<ul>
-					<li><a id="inf-20100330-64" href="./mods/64bit/infdev/inf-20100330/minecraft-inf-20100330-v1-zero.zip">v1.0</a></li>
-				</ul>
-                <h4>
-                    <li>Infdev 20100414 (314rft)</li>
-                </h4>
-				<ul>
-					<li>Note from 314rft: "It's a VERY messy mod and will feel very wonky."</li>
-					<li><a href="./mods/64bit/infdev/inf-20100414/0.0.7_02-modzip.zip">0.0.7_02</a></li>
-				</ul>
-				<h4>
-					<li>Infdev 20100420 (314rft, Zero)</li>
-				</h4>
-				<ul>
-					<li><a id="inf-20100420-64" href="./mods/64bit/infdev/inf-20100420/minecraft_inf-20100420_64bit_v2_314rft.zip">v2.0 (314rft)</a></li>
-					<li><a href="./mods/64bit/infdev/inf-20100420/minecraft-inf-20100420-v1-zero.zip">v1.0 (Zero)</a></li>
-				</ul>
-				<h4>
-					<li>Infdev 20100624 (314rft)</li>
-				</h4>
-				<ul>
-					<li><a id="inf-20100624-64" href="./mods/64bit/infdev/inf-20100624/minecraft_inf-20100624_64bit_v1_314rft.zip">v1.0</a></li>
-				</ul>
-			</ul>
-			<h3>Alpha: </h3>
-			<ul>
-				<h4>
-					<li>Alpha v1.0.1_01 (Zeta and Zero)</li>
-				</h4>
-				<ul>
-					<li><a id="a1.0.1_01-64" href="./mods/64bit/alpha/a1.0.1_01/minecraft-a1.0.1_01-64bit_v0.0.3_02-zero-and-zeta.zip">v0.0.3_02</a></li>
-				</ul>
-				<h4>
-					<li>Alpha v1.0.6_03 (314rft)</li>
-				</h4>
-				<ul>
-					<li><a id="a1.0.6_03-64" href="./mods/64bit/alpha/a1.0.6_03/minecraft_a1.0.6_03_64bit_v1_314rft.zip">v1.0</a></li>
-				</ul>
-				<h4>
-					<li>Alpha v1.0.13_01 (314rft)</li>
-				</h4>
-				<ul>
-					<li><a id="a1.0.13_01-64" href="./mods/64bit/alpha/a1.0.13_01/minecraft_a1.0.13_01_64bit_v1_314rft.zip">v1.0</a></li>
-				</ul>
-				<h4>
-					<li>Alpha v1.1.1 (314rft)</li>
-				</h4>
-				<ul>
-					<li><a id="a1.1.1-64" href="./mods/64bit/alpha/a1.1.1/minecraft_a111_64bit_v1_314rft.zip">v1.0</a></li>
-				</ul>
-				<h4>
-					<li>Alpha v1.1.2 (314rft)</li>
-				</h4>
-				<ul>
-					<li><a id="a1.1.2-64" href="./mods/64bit/alpha/a1.1.2/minecraft_a112_64bit_v1_314rft.zip">v1.0</a></li>
-				</ul>
-				<h4>
-					<li>Alpha v1.1.2_01 (314rft, Zero)</li>
-				</h4>
-				<ul>
-					<li><a id="a1.1.2_01-64" href="./mods/64bit/alpha/a1.1.2_01/minecraft_a1.1.2_01_64bit_v1.1_314rft.zip">v1.1 (314rft)</a></li>
-					<li><a href="./mods/64bit/alpha/a1.1.2_01/minecraft-a1.1.2_01-v1-zero.zip">v1.0 (Zero) (Client)</a></li>
-					<li><a href="./mods/64bit/alpha/a1.1.2_01/minecraft_server-a1.1.2_01-v1-zero.zip">v1.0 (Zero) (Server)</a></li>
-				</ul>
-			</ul>
-			<h3>Beta: </h3>
-			<ul>
-				<h4>
-					<li>Beta 1.1_02 (Zero)</li>
-				</h4>
-				<ul>
-					<li><a id="b1.1_02-64" href="./mods/64bit/beta/b1.1_02/minecraft-b1.1_02-v1-zero.zip">v1.0</a></li>
-				</ul>
-				<h4>
-					<li>Beta 1.2_02 + Aether (314rft)</li>
-				</h4>
-				<ul>
-					<li><a id="b1.2_02-64" href="./mods/64bit/beta/b1.2_02-aether/minecraft_b1.2_02_64bit_aether_v3_314rft.zip">v3.0</a></li>
-				</ul>
-				<h4>
-					<li>Beta 1.7.3 (RVH, Zero)</li>
-				</h4>
-				<ul>
-					<li><a href="./mods/64bit/beta/b1.7.3/minecraft-b1.7.3-v1-zero.zip">v1.0 (Zero)</a></li>
-                    <li>Note from RVH: Notice of 15 April 2023 | These versions are safe to play, however this mod has been discontinued. It will be remade in the future.</li>
-                    <li><a id="b1.7.3-64" href="./mods/64bit/beta/b1.7.3/b1.7.3LongV1.zip">v1.0 (RVH)</a></li>
-					<li><a href="./mods/64bit/beta/b1.7.3/b1.7.3LongV2.zip">v2.0 (RVH)</a></li>
-				</ul>
-			</ul>
-			<h3>Release: </h3>
-			<ul>
-				<h4>
-					<li>1.0.0 (314rft)</li>
-				</h4>
-				<ul>
-					<li><a id="1.0.0-64" href="./mods/64bit/release/1.0.0/minecraft_1.0.0_64bit_v1_314rft.zip">v1.0</a></li>
-					<li><a href="./mods/64bit/release/1.0.0/minecraft_1.0.0_64bit_v2_314rft.zip">v2.0</a></li>
-					<li><a href="/mods/64bit/release/1.0.0/minecraft_1.0.0_64bit_v3.1_314rft.zip">v3.1</a></li>
-				</ul>
-				<h4>
-					<li>1.2.5 (314rft)</li>
-				</h4>
-				<ul>
-					<li><a id="1.2.5-64" href="./mods/64bit/release/1.2.5/1_2_5_64bitcoords_v2.zip">v2.0</a></li>
-					<li><a href="./mods/64bit/release/1.2.5/1_2_5_64bitcoords_v3.zip">v3.0</a></li>
-					<li><a href="./mods/64bit/release/1.2.5/1_2_5_64bitcoords_v4.zip">v4.0</a></li>
-					<li><a href="./mods/64bit/release/1.2.5/1_2_5_64bitcoords_v5.zip">v5.0</a></li>
-					<li><a href="./mods/64bit/release/1.2.5/1_2_5_64bitcoords_v6.zip">v6.0</a></li>
-					<li><a href="./mods/64bit/release/1.2.5/1_2_5_64bitcoords_v6_1.zip">v6.1</a></li>
-				</ul>
-				<h4>
-					<li>1.5.2 (Zero)</li>
-				</h4>
-				<ul>
-					<li><a id="1.5.2-64" href="./mods/64bit/release/1.5.2/minecraft-1.5.2-64bit-v1-zero.zip">v1.0</a></li>
-					<!-- TODO: Should we add biome decorator crash? It just crashes the game. -->
-					<li><a href="./mods/64bit/release/1.5.2/minecraft-1.5.2-64bit-v1.1-zero.zip">v1.1</a></li>
-					<li><a href="./mods/64bit/release/1.5.2/minecraft-1.5.2-64bit-v1.2-zero.zip">v1.2</a></li>
-				</ul>
-				<h4>
-					<li>1.6.4 (Zero)</li>
-				</h4>
-				<ul>
-					<li><a id="1.6.4-64" href="./mods/64bit/release/1.6.4/minecraft-1.6.4-64bit-v1-zero.zip">v1.0</a></li>
-				</ul>
-				<h4>
-					<li>1.8 (Zero)</li>
-				</h4>
-				<ul>
-					<li><a id="1.8-64" href="./mods/64bit/release/1.8/minecraft-1.8-64bit-v1-zero.zip">v1.0</a></li>
-					<li><a href="./mods/64bit/release/1.8/minecraft-1.8-64bit-v2-zero.zip">v2.0</a></li>
-					<li><a href="./mods/64bit/release/1.8/minecraft-1.8-64bit-v3-zero.zip">v3.0</a></li>
-				</ul>
-				<h4>
-					<li>1.9 (Zero)</li>
-				</h4>
-				<ul>
-					<li><a id="1.9-64" href="./mods/64bit/release/1.9/minecraft-1.9-64bit-v1-fixed-fixed-fixed-fixed-fixed-fixed-fixed-zero.zip">v1.0</a></li>
-				</ul>
-				<h4>
-					<li>1.10.2 (Zero)</li>
-				</h4>
-				<ul>
-					<li><a id="1.10.2-64" href="./mods/64bit/release/1.10.2/minecraft-1.10.2-64bit-v1-zero.zip">v1.0</a></li>
-				</ul>
-				<h4>
-					<li>1.11.2 (Zero)</li>
-				</h4>
-				<ul>
-					<li><a id="1.11.2-64" href="./mods/64bit/release/1.11.2/minecraft-1.11.2-64bit-v1-zero.zip">v1.0</a></li>
-				</ul>
-				<h4>
-					<li>1.12.2 (Zero)</li>
-				</h4>
-				<ul>
-					<li><a id="1.12.2-64" href="./mods/64bit/release/1.12.2/minecraft1.12.2-64bit-V1.zip">v1.0</a></li>
-					<li><a href="./mods/64bit/release/1.12.2/minecraft1.12.2-64-bit-V2.zip">v2.0</a></li>
-					<li><a href="./mods/64bit/release/1.12.2/minecraft-1.12.2-64bit-v2.5-zero.zip">v2.5</a></li>
-					<li><a href="./mods/64bit/release/1.12.2/minecraft-1.12.2-64bit-v2.75.zip">v2.75</a></li>
-					<li><a href="./mods/64bit/release/1.12.2/minecraft-1.12.2-64bit-v3.zip">v3.0</a></li>
-				</ul>
-				<h4>
-					<li>1.19.2 (mckuhei)</li>
-				</h4>
-				<ul>
-					<li><a id="1.19.2-64" href="http://mckuhei.mcmodule.org/MinecraftHacks/64bit/1.19.2/">Official downloads</a></li>
-				</ul>
-			</ul>
+			<h3> Select version: </h3>
+			<noscript>Please enable JavaScript</noscript>
+			<select id="phase-dropdown" hidden></select>
+			<select id="downloads-dropdown" hidden></select>
+			<select id="type-dropdown" hidden></select>
+			<!-- See below todo -->
+			<p id="downloads-box"><span>Loading...</span></p>
+			<script>
+				var entityMap = {
+					escape: {
+						'&': '&amp;',
+						'<': '&lt;'  ,
+						'>': '&gt;'  ,
+						'"': '&quot;',
+						"'": '&apos;',
+					},
+					unescape: {
+						'&amp;':  "&",
+						'&apos;': "'",
+						'&gt;':   ">",
+						'&lt;':   "<",
+						'&quot;': '"',
+					}
+				};
+				var entityReg = {
+					escape: RegExp('[' + Object.keys(entityMap.escape).join('') + ']', 'g'),
+					unescape: RegExp('(' + Object.keys(entityMap.unescape).join('|') + ')', 'g')
+				};
+				// 将HTML转义为实体
+				function escapeHtml(html) {
+					if (typeof html !== 'string') return '';
+					return html.replace(entityReg.escape, function(match) {
+						return entityMap.escape[match];
+					});
+				}
+				// 将实体转回为HTML
+				function unescapeHtml(str) {
+					if (typeof str !== 'string') return '';
+					return str.replace(entityReg.unescape, function(match) {
+						return entityMap.unescape[match];
+					});
+				}
+				let versions = null;
+				$.ajax({
+					url: "./versions.json",
+					dataType: "json",
+					success: result => {
+						versions = result;
+						$("#phase-dropdown").change(e => {
+							$("#downloads-dropdown").removeAttr("hidden").children().remove();
+							Object.keys(versions[e.target.value]).forEach(element => {
+								$("#downloads-dropdown").append("<option>" + escapeHtml(element) + "</option>");
+							});
+							$("#downloads-dropdown").change();
+						});
+						$("#type-dropdown").change(e => {
+							let target = $("#type-dropdown").val();
+							$("#downloads-box").children().remove();
+							versions[$("#phase-dropdown").val()][$("#downloads-dropdown").val()].forEach(element => {
+								if((element.type == undefined ? "Client" : element.type) != target) return;
+								$("#downloads-box").append("<li><a href=\"" + element.download + "\">" + escapeHtml(element.version) + "</a></li>");
+							});
+						});
+						$("#downloads-dropdown").change(e => {
+							$("#type-dropdown").removeAttr("hidden").children().remove();
+							let types = [];
+							versions[$("#phase-dropdown").val()][$("#downloads-dropdown").val()].forEach(element => {
+								let type = element.type == undefined ? "Client" : element.type;
+								if(types.includes(type)) return;
+								types.push(type);
+								$("#type-dropdown").append("<option>" + escapeHtml(type) + "</option>");
+							});
+							// Hide if there is only have client.
+							if(types.length == 1 && types[0] == "Client") $("#type-dropdown").attr("hidden", true);
+							$("#type-dropdown").change();
+						});
+						Object.keys(result).forEach(element => {
+							$("#phase-dropdown").append("<option>" + escapeHtml(element) + "</option>");
+						});
+						$("#phase-dropdown").removeAttr("hidden").change();
+					}
+				});
+			</script>
 		</ul>
 		<h1 id="unlimitedmc"> Unlimited Worldgen ("128 bit")</h1>
 		<div id="unlimitedmc-div">
+
+			</p>
+			<!-- TODO: which versions? We don't want people randomly installing unecessary depedencies. Maybe bundle manifold with jarmods? -->
+			<p>Note: These versions are very CPU and RAM-intensive compared to their vanilla counterparts. Do NOT expect to have the same performance as typical 64-bit mods, even at spawn.</p>
 			<h3>Downloads</h3>
 			<ul>
 				<h4>
-					<li>1.3.2 (mckuhei)</li>
-				</h4>
-				<ul>
-					<li><a href="https://mckuhei.mcmodule.org/MinecraftHacks/BigInteger/Minecraft%201.3.2%20BigInteger%20mod%20v1.2.zip">Official Download (v1.2)</a></li>
-                    <li><a href="http://ci.mcmodule.org/job/Minecraft%201.3.2%20128bit%20mod/lastSuccessfulBuild/artifact/bin/minecraft/minecraft.zip">Official Download (latest build)</a></li>
-                </ul>
-				<h4>
 					<li>Infdev 20100630-1 (Zero)</li>
 				</h4>
-				<p>To install this first start off with downloading inf-20100630 from <a href="https://vault.omniarchive.uk/archive/java/client-infdev/inf-20100630-1340.jar">here</a>. Manifold is necessary for these mods. Install <a href="https://repo1.maven.org/maven2/systems/manifold/manifold-all/2023.1.3/manifold-all-2023.1.3.jar">Manifold</a>
-					as a JAR mod via the "Add to Minecraft.jar" option in MultiMC-based launchers.
-				</p>
-				<!-- TODO: which versions? We don't want people randomly installing unecessary depedencies. Maybe bundle manifold with jarmods? -->
-				<p>Note: These versions are very CPU and RAM-intensive compared to their vanilla counterparts. Do NOT expect to have the same performance as typical 64-bit mods, even at spawn.</p>
 				<ul>
-					<li><a id="infdev-20100630-1-u" href="./mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.0-zero.zip">v1.0</a></li>
-					<li><a href="./mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.1-zero.zip">v1.1</a></li>
-					<li><a href="./mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.2-zero.zip">v1.2</a></li>
-					<li><a href="./mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.3-zero.zip">v1.3</a></li>
-					<li><a href="./mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.35-zero.zip">v1.35</a></li>
+					<li><a id="infdev-20100630-1-u" href="../mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.0-zero.zip">v1.0</a></li>
+					<li><a href="/mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.0-zero.zip">v1.1</a></li>
+					<li><a href="/mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.2-zero.zip">v1.2</a></li>
+					<li><a href="/mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.3-zero.zip">v1.3</a></li>
+					<li><a href="/mods/unlimited/infdev/inf-20100630/minecraft-infdev-20100630-1-v1.35-zero.zip">v1.35</a></li>
 				</ul>
 			</ul>
 		</div>
