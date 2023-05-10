@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - main # Replace with the name of your branch
-      
+
 jobs:
   message:
     runs-on: ubuntu-latest
@@ -16,6 +16,6 @@ jobs:
       with:
         webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
         embed-title: ${{ github.event.head_commit.message }}
-        embed-description: "A new commit has been pushed to the repository."
-        username: "Github Actions"
+        embed-description: "A new commit has been pushed to the Cursed Creations archive."
+        username: "Github Webhook: Archive"
         avatar-url: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
