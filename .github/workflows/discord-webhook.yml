@@ -1,0 +1,19 @@
+name: Send Discord webhook on push
+
+on:
+  push:
+    branches:
+      - main # Replace with the name of your branch
+
+jobs:
+  send-webhook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Send Discord webhook
+        uses: distributhor/discord-webhook-action@v1
+        with:
+          url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          payload: '{"content": "New commit pushed to repository"}'
