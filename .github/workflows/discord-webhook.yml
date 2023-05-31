@@ -15,7 +15,6 @@ jobs:
       uses: tsickert/discord-webhook@v5.3.0
       with:
         webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        embed-title: ${{ github.event.repository.name }}
+        embed-title: ${{ github.event.repository.owner.name }}/${{ github.event.repository.name }}
         embed-description: ${{ github.event.head_commit.message }}
-        username: ${{ github.event.repository.owner.name }}
         avatar-url: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
