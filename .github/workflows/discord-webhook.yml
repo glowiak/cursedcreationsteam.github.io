@@ -1,11 +1,7 @@
 name: Send Discord webhook on push
 
 on:
-  workflow_dispatch:
-    
-  push:
-    branches:
-      - main # Replace with the name of your branch
+  [workflow_dispatch, push]
 
 jobs:
   message:
