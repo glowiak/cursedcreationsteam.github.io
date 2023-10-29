@@ -8,11 +8,7 @@
 <header>
     <nav>
         <a class="brand" href="/">Cursed Creations</a>
-        <md-outlined-icon-button
-            class="menu"
-            aria-label="Toggle navigation"
-            on:click={(_) => (navShown = !navShown)}
-        >
+        <md-outlined-icon-button class="menu" aria-label="Toggle navigation" on:click={(_) => (navShown = !navShown)}>
             <md-icon>menu</md-icon>
         </md-outlined-icon-button>
         <ul class="links" class:shown={navShown}>
@@ -29,7 +25,7 @@
     header {
         display: contents;
     }
-    
+
     nav {
         display: grid;
         align-items: center;
@@ -50,7 +46,10 @@
         a {
             text-decoration: none;
 
-            &:hover, &:focus, &:focus-within, &:focus-visible {
+            &:hover,
+            &:focus,
+            &:focus-within,
+            &:focus-visible {
                 color: var(--md-sys-color-on-surface-variant);
             }
         }
