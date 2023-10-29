@@ -2,4 +2,6 @@
     <title>Cursed Creations | Home</title>
 </svelte:head>
 
-<h1>hi</h1>
+<p style:text-align="center">
+    Hello, you're probably looking for this: <a href="/downloads">new archive</a>
+</p>
