@@ -69,7 +69,7 @@
 
     .brand {
         font-weight: bolder;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .menu {
