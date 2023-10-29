@@ -1,15 +1,9 @@
 <h1>Cursed Creations Minecraft Mods</h1>
 <ul>
-    {#each [
-        ["/expandedworlds", "World Expansion (64bit and BigInteger Worldgen)"],
-        ["/zetaforged", "ZetaForged (v1/v2)"],
-        ["/fringelands_mod", "Allam A's Fringelands"]
-    ] as [href, display]}
-        <li><a href="/downloads{href}">{display}</a></li>
-    {/each}
+    <li><a href="/downloads/expandedworlds">World Expansion (64bit and BigInteger Worldgen)</a></li>
+    <li><a href="/downloads/zetaforged">ZetaForged (v1/v2)</a></li>
+    <li><a href="/downloads/fringelands_mod">Allam A's Fringelands</a></li>
 </ul>
 <p>
-    For any support, contact the Cursed Creations team at <a
-        href="https://discord.gg/gBXj5j55uf">our Discord server</a
-    >
+    For any support, contact the Cursed Creations team at <a href="https://discord.gg/gBXj5j55uf">our Discord server</a>
 </p>
