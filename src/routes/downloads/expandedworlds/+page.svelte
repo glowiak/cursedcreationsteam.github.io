@@ -20,7 +20,7 @@
 
 <h2>Infdev:</h2>
 <h3>Infdev 20100227-2 (Maxxx)</h3>
-<ul id="inf-20100227-2-64">
+<ul>
     <li>
         <a href="/mods/64bit/infdev/inf-20100227/minecraft-inf-20100227-v1-maxxx.zip">v1.0</a>
     </li>
@@ -28,7 +28,7 @@
 
 <h3>Infdev 20100313 (RVH)</h3>
 <p class="note">Note from RVH: 0.0.1 and 0.0.2 are untested for any destructive bugs.</p>
-<ul id="inf-20100313-64">
+<ul>
     <li>
         <a href="/mods/64bit/infdev/inf-20100313/inf313_long_0.0.1.zip">v0.0.1</a>
     </li>
@@ -44,7 +44,7 @@
 </ul>
 
 <h3>Infdev 20100325 (Maxxx)</h3>
-<ul id="inf-20100325-64">
+<ul>
     <li>v1.0 (UNAVAILABLE)</li>
     <li>v1.1 (UNAVAILABLE)</li>
     <li>v1.2 (UNAVAILABLE)</li>
@@ -58,7 +58,7 @@
 
 <h3>Infdev 20100327 (Zeta)</h3>
 <p class="note">Note from Zeta: This mods is in ALPHA and is likely very buggy. I don't even recall if I ever added proper 64bit worldgen to this mod but I'm uploading it regardless. This mod is also unsupported, as in it won't get any bugfixes for the time being.</p>
-<ul id="inf-20100327-64">
+<ul>
     <li>
         <a href="/mods/64bit/infdev/inf-20100327/Zetas_64bit_inf-20100327_ALPHA_build_1.zip">ALPHA build 1</a>
     </li>
@@ -68,7 +68,7 @@
 </ul>
 
 <h3>Infdev 20100330 (Zero)</h3>
-<ul id="inf-20100330-64">
+<ul>
     <li>
         <a href="/mods/64bit/infdev/inf-20100330/minecraft-inf-20100330-v1-zero.zip">v1.0</a>
     </li>
@@ -76,14 +76,14 @@
 
 <h3>Infdev 20100414 (314rft)</h3>
 <p class="note">Note from 314rft: "It's a VERY messy mod and will feel very wonky."</p>
-<ul id="414mod">
+<ul>
     <li>
         <a href="/mods/64bit/infdev/inf-20100414/0.0.7_02-modzip.zip">0.0.7_02</a>
     </li>
 </ul>
 
 <h3>Infdev 20100420 (314rft, Zero)</h3>
-<ul id="inf-20100420-64">
+<ul>
     <li>
         <a href="/mods/64bit/infdev/inf-20100420/minecraft_inf-20100420_64bit_v2_314rft.zip">v2.0 (314rft)</a>
     </li>
@@ -93,7 +93,7 @@
 </ul>
 
 <h3>Infdev 20100624 (314rft)</h3>
-<ul id="inf-20100624-64">
+<ul>
     <li>
         <a href="/mods/64bit/infdev/inf-20100624/minecraft_inf-20100624_64bit_v1_314rft.zip">v1.0</a>
     </li>
@@ -104,7 +104,7 @@
 <p class="note">
     Note from Zeta: Some of these files were solely uploaded in a Discord server that no longer has any affiliation to Cursed Creations Inc. If you have any of these missing versions, please send them in the <a href="https://discord.gg/gBXj5j55uf">new official Discord server</a> for us to upload them, as I kinda forgot to backup these files and lost the source code.
 </p>
-<ul id="a1.0.1_01-64">
+<ul>
     <li>
         <a href="/mods/64bit/alpha/a1.0.1_01/ZZ-64bit_alpha_v1.0.1_01-0.0.1.zip">v0.0.1</a>
     </li>
@@ -125,35 +125,35 @@
 </ul>
 
 <h3>Alpha v1.0.6_03 (314rft)</h3>
-<ul id="a1.0.6_03-64">
+<ul>
     <li>
         <a href="/mods/64bit/alpha/a1.0.6_03/minecraft_a1.0.6_03_64bit_v1_314rft.zip">v1.0</a>
     </li>
 </ul>
 
 <h3>Alpha v1.0.13_01 (314rft)</h3>
-<ul id="a1.0.13_01-64">
+<ul>
     <li>
         <a href="/mods/64bit/alpha/a1.0.13_01/minecraft_a1.0.13_01_64bit_v1_314rft.zip">v1.0</a>
     </li>
 </ul>
 
 <h3>Alpha v1.1.1 (314rft)</h3>
-<ul id="a1.1.1-64">
+<ul>
     <li>
         <a href="/mods/64bit/alpha/a1.1.1/minecraft_a111_64bit_v1_314rft.zip">v1.0</a>
     </li>
 </ul>
 
 <h3>Alpha v1.1.2 (314rft)</h3>
-<ul id="a1.1.2-64">
+<ul>
     <li>
         <a href="/mods/64bit/alpha/a1.1.2/minecraft_a112_64bit_v1_314rft.zip">v1.0</a>
     </li>
 </ul>
 
 <h3>Alpha v1.1.2_01 (314rft, Zero)</h3>
-<ul id="a1.1.2_01-64">
+<ul>
     <li>
         <a href="/mods/64bit/alpha/a1.1.2_01/minecraft_a1.1.2_01_64bit_v1.1_314rft.zip">v1.1 (314rft)</a>
     </li>
@@ -167,14 +167,14 @@
 
 <h2>Beta:</h2>
 <h3>Beta 1.1_02 (Zero)</h3>
-<ul id="b1.1_02-64">
+<ul>
     <li>
         <a href="/mods/64bit/beta/b1.1_02/minecraft-b1.1_02-v1-zero.zip">v1.0</a>
     </li>
 </ul>
 
 <h3>Beta 1.2_02 + Aether (314rft)</h3>
-<ul id="b1.2_02-aether-64">
+<ul>
     <li>
         <a href="/mods/64bit/beta/b1.2_02-aether/minecraft_b1.2_02_64bit_aether_v0.6.zip">v0.6 (client)</a>
     </li>
@@ -184,7 +184,7 @@
 </ul>
 
 <h3>Beta 1.7.3 (RVH, Zero)</h3>
-<ul id="b1.7.3-64">
+<ul>
     <li>
         <a href="/mods/64bit/beta/b1.7.3/minecraft-b1.7.3-v1-zero.zip">v1.0 (Zero)</a>
     </li>
@@ -201,7 +201,7 @@
 
 <h2>Release:</h2>
 <h3>1.0.0 (314rft)</h3>
-<ul id="1.0.0-64">
+<ul>
     <li>
         <a href="/mods/64bit/release/1.0.0/minecraft_1.0.0_64bit_v1_314rft.zip">v1.0</a>
     </li>
@@ -214,7 +214,7 @@
 </ul>
 
 <h3>1.2.5 (314rft)</h3>
-<ul id="1.2.5-64">
+<ul>
     <li>
         <a href="/mods/64bit/release/1.2.5/1_2_5_64bitcoords_v2.zip">v2.0</a>
     </li>
@@ -236,7 +236,7 @@
 </ul>
 
 <h3>1.5.2 (Zero)</h3>
-<ul id="1.5.2-64">
+<ul>
     <li>
         <a href="/mods/64bit/release/1.5.2/minecraft-1.5.2-64bit-v1-zero.zip">v1.0</a>
     </li>
@@ -249,7 +249,7 @@
 </ul>
 
 <h3>1.6.4 (Zero)</h3>
-<ul id="1.6.4-64">
+<ul>
     <li>
         <a href="/mods/64bit/release/1.6.4/minecraft-1.6.4-64bit-v1-zero.zip">v1.0</a>
     </li>
@@ -261,8 +261,8 @@
     <li>v2 - Most issues are fixed, log spam is fixed</li>
     <li>v3 - Fixes 2^35 bug, Slowfalling still exists (due to server thread becoming overloaded)</li>
 </ul>
-<br>
-<ul id="1.8-64">
+<br />
+<ul>
     <li>
         <a href="/mods/64bit/release/1.8/minecraft-1.8-64bit-v1-zero.zip">v1.0</a>
     </li>
@@ -274,25 +274,25 @@
     </li>
 </ul>
 <h3>1.9 (Zero)</h3>
-<ul id="1.9-64">
+<ul>
     <li>
         <a href="/mods/64bit/release/1.9/minecraft-1.9-64bit-v1-zero.zip">v1.0</a>
     </li>
 </ul>
 <h3>1.10.2 (Zero)</h3>
-<ul id="1.10.2-64">
+<ul>
     <li>
         <a href="/mods/64bit/release/1.10.2/minecraft-1.10.2-64bit-v1-zero.zip">v1.0</a>
     </li>
 </ul>
 <h3>1.11.2 (Zero)</h3>
-<ul id="1.11.2-64">
+<ul>
     <li>
         <a href="/mods/64bit/release/1.11.2/minecraft-1.11.2-64bit-v1-zero.zip">v1.0</a>
     </li>
 </ul>
 <h3>1.12.2 (Zero)</h3>
-<ul id="1.12.2-64">
+<ul>
     <li>
         <a href="/mods/64bit/release/1.12.2/minecraft1.12.2-64bit-V1.zip">v1.0</a>
     </li>
@@ -312,15 +312,12 @@
 <h3>mclong 1.19.2-1.20.1 (AlphaMode)</h3>
 <ul>
     <li>
-        <a href="https://github.com/AlphaMode/MinecraftLong2"
-            >Source (no installer is distributed, 'gradlew setup installerJar mclong_client'
-            to run, installer will be found in
-            'projects/mclong/build/libs')</a>
+        <a href="https://github.com/AlphaMode/MinecraftLong2">Source (no installer is distributed, 'gradlew setup installerJar mclong_client' to run, installer will be found in 'projects/mclong/build/libs')</a>
     </li>
 </ul>
 <h2 id="biginteger">Unlimited Worldgen (BigInteger mods)</h2>
 <h3>1.20.1 (AlphaMode)</h3>
-<ul id="1.20.1-BigInt">
+<ul>
     <li>
         <a href="https://cdn.discordapp.com/attachments/887678021736218639/1151347327303417946/mclong-1.20.1-0.0.0-1.20.1-big-installer.jar">Download installer, run like you would install forge (Latest as of 2023/09/12)</a>
     </li>
@@ -329,7 +326,7 @@
     </li>
 </ul>
 <h3>1.12.2 (mckuhei)</h3>
-<ul id="1.12.2-BigInt">
+<ul>
     <li><a href="/mods/unlimited/release/1.12.2/mod.zip">v1.0.1</a></li>
 </ul>
 
@@ -339,6 +336,6 @@
     }
 
     h3 + p {
-        margin-block-end: 0; /* overwrites static/reset.css */ 
+        margin-block-end: 0; /* overwrites static/reset.css */
     }
 </style>
