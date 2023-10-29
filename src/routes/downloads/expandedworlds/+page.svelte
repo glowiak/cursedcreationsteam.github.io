@@ -27,7 +27,7 @@
 </ul>
 
 <h3>Infdev 20100313 (RVH)</h3>
-<p>Note from RVH: 0.0.1 and 0.0.2 are untested for any destructive bugs.</p>
+<p class="note">Note from RVH: 0.0.1 and 0.0.2 are untested for any destructive bugs.</p>
 <ul id="inf-20100313-64">
     <li>
         <a href="/mods/64bit/infdev/inf-20100313/inf313_long_0.0.1.zip">v0.0.1</a>
@@ -57,7 +57,7 @@
 </ul>
 
 <h3>Infdev 20100327 (Zeta)</h3>
-<p id="inf-20100327-64-warn">Note from Zeta: This mods is in ALPHA and is likely very buggy. I don't even recall if I ever added proper 64bit worldgen to this mod but I'm uploading it regardless. This mod is also unsupported, as in it won't get any bugfixes for the time being.</p>
+<p class="note">Note from Zeta: This mods is in ALPHA and is likely very buggy. I don't even recall if I ever added proper 64bit worldgen to this mod but I'm uploading it regardless. This mod is also unsupported, as in it won't get any bugfixes for the time being.</p>
 <ul id="inf-20100327-64">
     <li>
         <a href="/mods/64bit/infdev/inf-20100327/Zetas_64bit_inf-20100327_ALPHA_build_1.zip">ALPHA build 1</a>
@@ -75,7 +75,7 @@
 </ul>
 
 <h3>Infdev 20100414 (314rft)</h3>
-<p>Note from 314rft: "It's a VERY messy mod and will feel very wonky."</p>
+<p class="note">Note from 314rft: "It's a VERY messy mod and will feel very wonky."</p>
 <ul id="414mod">
     <li>
         <a href="/mods/64bit/infdev/inf-20100414/0.0.7_02-modzip.zip">0.0.7_02</a>
@@ -101,7 +101,7 @@
 
 <h2>Alpha:</h2>
 <h3>Alpha v1.0.1_01 (Zeta and Zero)</h3>
-<p id="a1.0.1_01-64-note">
+<p class="note">
     Note from Zeta: Some of these files were solely uploaded in a Discord server that no longer has any affiliation to Cursed Creations Inc. If you have any of these missing versions, please send them in the <a href="https://discord.gg/gBXj5j55uf">new official Discord server</a> for us to upload them, as I kinda forgot to backup these files and lost the source code.
 </p>
 <ul id="a1.0.1_01-64">
@@ -189,7 +189,7 @@
         <a href="/mods/64bit/beta/b1.7.3/minecraft-b1.7.3-v1-zero.zip">v1.0 (Zero)</a>
     </li>
 </ul>
-<p>Note from RVH: Notice of 15 April 2023 | These versions are safe to play, however this mod has been discontinued. It will be remade in the future.</p>
+<p class="note">Note from RVH: Notice of 15 April 2023 | These versions are safe to play, however this mod has been discontinued. It will be remade in the future.</p>
 <ul>
     <li>
         <a href="/mods/64bit/beta/b1.7.3/b1.7.3LongV1.zip">v1.0 (RVH)</a>
@@ -256,7 +256,7 @@
 </ul>
 
 <h3>1.8 (Zero)</h3>
-<p id="1.8-note">Note from author: Very buggy, has log spam which can rapidly decrease FPS and can cause disk usage to rise drastically, has a bug at 2^35 which causes stripes of chunks to not load every power of 2, Chunk overwrite limit causes chunk and entity relocation spam, highly unstable. Player will be affected.</p>
+<p class="note">Note from author: Very buggy, has log spam which can rapidly decrease FPS and can cause disk usage to rise drastically, has a bug at 2^35 which causes stripes of chunks to not load every power of 2, Chunk overwrite limit causes chunk and entity relocation spam, highly unstable. Player will be affected.</p>
 <ul>
     <li>v2 - Most issues are fixed, log spam is fixed</li>
     <li>v3 - Fixes 2^35 bug, Slowfalling still exists (due to server thread becoming overloaded)</li>
