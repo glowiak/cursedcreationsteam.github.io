@@ -3,7 +3,7 @@
 </script>
 
 <Header />
-<slot />
+<main><slot /></main>
 
 <style>
     :global(body) {

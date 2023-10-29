@@ -5,25 +5,32 @@
     let navShown = false;
 </script>
 
-<nav>
-    <a class="brand" href="index.html">Cursed Creations</a>
-    <md-outlined-icon-button
-        class="menu"
-        aria-expanded={navShown}
-        aria-label="Toggle navigation"
-        on:click={(_) => (navShown = !navShown)}
-    >
-        <md-icon>menu</md-icon>
-    </md-outlined-icon-button>
-    <ul class="links" class:shown={navShown}>
-        {#each [["/", "Home"], ["/downloads", "Mods"], ["/wiki", "Wiki"]] as [href, display]}
-            <li><a {href}>{display}</a></li>
-        {/each}
-    </ul>
-</nav>
+<header>
+    <nav>
+        <a class="brand" href="index.html">Cursed Creations</a>
+        <md-outlined-icon-button
+            class="menu"
+            aria-expanded={navShown}
+            aria-label="Toggle navigation"
+            on:click={(_) => (navShown = !navShown)}
+        >
+            <md-icon>menu</md-icon>
+        </md-outlined-icon-button>
+        <ul class="links" class:shown={navShown}>
+            {#each [["/", "Home"], ["/downloads", "Mods"], ["/wiki", "Wiki"]] as [href, display]}
+                <li><a {href}>{display}</a></li>
+            {/each}
+        </ul>
+    </nav>
+</header>
 
 <style lang="scss">
     $space: 4ch;
+
+    header {
+        display: contents;
+    }
+    
     nav {
         display: grid;
         align-items: center;
