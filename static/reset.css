@@ -22,17 +22,3 @@ body {
 body p:not(:last-child) {
     margin-block-end: 1.6875em;
 }
-
-button {
-    display: inline-block;
-    border: none;
-    color: inherit;
-    font-size: 1rem;
-    cursor: pointer;
-    text-align: center;
-    vertical-align: center;
-    box-shadow: none;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-}
