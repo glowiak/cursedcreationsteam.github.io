@@ -10,7 +10,6 @@
         <a class="brand" href="/">Cursed Creations</a>
         <md-outlined-icon-button
             class="menu"
-            aria-expanded={navShown}
             aria-label="Toggle navigation"
             on:click={(_) => (navShown = !navShown)}
         >
