@@ -1,50 +1,105 @@
 <script>
-    import { onMount } from "svelte";
     import "@material/web/iconbutton/outlined-icon-button";
     import "@material/web/icon/icon";
 
-    let isMobile = false, media = null;
-
-    onMount(() => {
-        media = window.matchMedia("(max-width: 800px)");
-        isMobile = !!media?.matches;
-
-        media.onchange = _ => isMobile = !!media?.matches;
-    });
+    let navShown = false;
 </script>
 
 <nav>
-    <a class="navbar-brand" href="index.html">Cursed Creations</a>
-    {#if isMobile}
+    <a class="brand" href="index.html">Cursed Creations</a>
     <md-outlined-icon-button
-        class="toggler"
-        aria-expanded="false"
+        class="menu"
+        aria-expanded={navShown}
         aria-label="Toggle navigation"
+        on:click={(_) => (navShown = !navShown)}
     >
         <md-icon>menu</md-icon>
     </md-outlined-icon-button>
-    {/if}
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <ul class="links" class:shown={navShown}>
         {#each [["/", "Home"], ["/downloads", "Mods"], ["/wiki", "Wiki"]] as [href, display]}
             <li><a {href}>{display}</a></li>
         {/each}
     </ul>
 </nav>
 
-<style>
+<style lang="scss">
+    $space: 4ch;
     nav {
-        display: flex;
-        flex-wrap: inherit;
+        display: grid;
         align-items: center;
-        justify-content: space-between;
+        column-gap: $space;
+        padding: #{$space * 0.5};
         background: var(--md-sys-color-surface-container);
+        min-height: 5svh;
+
+        grid-template: {
+            areas: "brand links .";
+            columns: auto auto 1fr;
+        }
+
+        * {
+            color: var(--md-sys-color-on-surface);
+        }
+
+        a {
+            text-decoration: none;
+
+            &:hover, &:focus, &:focus-within, &:focus-visible {
+                color: var(--md-sys-color-on-surface-variant);
+            }
+        }
+
+        :global(.menu) {
+            display: none;
+        }
+
+        @each $area in ("brand", "menu", "links") {
+            :global(& .#{$area}) {
+                grid-area: unquote($area);
+            }
+        }
     }
 
-    * {
-        color: var(--md-sys-color-on-surface-container);
+    .brand {
+        font-weight: bolder;
+        font-size: 1.2rem;
     }
 
-    a {
-        text-decoration: none;
+    .menu {
+        justify-self: end;
+    }
+
+    .links {
+        list-style-type: none;
+        display: flex;
+        padding: 0;
+        column-gap: $space;
+
+        li {
+            display: contents;
+        }
+    }
+
+    @media (max-width: 800px) {
+        nav {
+            grid-template: {
+                areas: "brand menu" "links links";
+                columns: 1fr 1fr;
+                rows: auto min-content;
+            }
+        }
+
+        .menu {
+            display: revert-layer;
+        }
+
+        .links {
+            flex-direction: column;
+            row-gap: #{$space * 0.5};
+
+            &:not(.shown) {
+                display: none;
+            }
+        }
     }
 </style>
