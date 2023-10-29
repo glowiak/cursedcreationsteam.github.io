@@ -1,0 +1,8 @@
+<slot />
+
+<style>
+    :global(body) {
+        background: var(--md-sys-color-background);
+        color: var(--md-sys-color-on-background);
+    }
+</style>
