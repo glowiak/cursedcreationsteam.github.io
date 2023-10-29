@@ -1,5 +1,10 @@
 {
   "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@material/web": "^1.0.1",
     "@sveltejs/adapter-static": "^2.0.3",
