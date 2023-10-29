@@ -7,7 +7,7 @@
 
 <header>
     <nav>
-        <a class="brand" href="index.html">Cursed Creations</a>
+        <a class="brand" href="/">Cursed Creations</a>
         <md-outlined-icon-button
             class="menu"
             aria-expanded={navShown}
