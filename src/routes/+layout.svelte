@@ -28,4 +28,8 @@
     :global(a) {
         color: var(--md-sys-color-primary);
     }
+
+    :global(:where(ul, ol, li)) {
+        padding: revert;
+    }
 </style>
