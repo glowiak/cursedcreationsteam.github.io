@@ -8,6 +8,8 @@
 <header>
     <nav>
         <a class="brand" href="/">Cursed Creations</a>
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <!-- svelte-ignore a11y-no-static-element-interactions -->
         <md-outlined-icon-button class="menu" aria-label="Toggle navigation" on:click={(_) => (navShown = !navShown)}>
             <md-icon>menu</md-icon>
         </md-outlined-icon-button>
