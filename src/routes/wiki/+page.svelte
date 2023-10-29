@@ -37,6 +37,10 @@ not work on PojavLauncher without patching.</p>
         content: ":";
     }
 
+    p {
+        text-align: justify;
+    }
+
     // TODO: Add buttons to copy the link to a section
     // h1, h2, h3 {
     //     &::before {
