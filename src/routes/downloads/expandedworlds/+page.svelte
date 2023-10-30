@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Cursed Creations | World Expansion</title>
+</svelte:head>
+
 <h1>World Expansion mods for Minecraft: Java Edition</h1>
 <p>
     These are special mods that expand Minecraft beyond the 32bit integer limit. These 64bit and BigInteger mods let you teleport trillions of blocks away, visiting the native Java Edition farlands, and viewing where the farlands ended up after they got "patched" in beta 1.8.
