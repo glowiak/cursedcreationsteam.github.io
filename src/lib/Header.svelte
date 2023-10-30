@@ -92,7 +92,7 @@
         nav {
             grid-template: {
                 areas: "brand menu" "links links";
-                columns: 1fr 1fr;
+                columns: 1fr auto;
                 rows: auto min-content;
             }
         }
