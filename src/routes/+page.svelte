@@ -2,6 +2,13 @@
     <title>Cursed Creations | Home</title>
 </svelte:head>
 
-<p style:text-align="center">
+<p>
     Hello, you're probably looking for this: <a href="/downloads">new archive</a>
 </p>
+
+<style>
+p {
+    text-align: center;
+    max-inline-size: revert;
+}
+</style>
