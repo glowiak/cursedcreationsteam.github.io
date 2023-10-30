@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Cursed Creations | Mod Downloadd</title>
+</svelte:head>
+
 <h1>Cursed Creations Minecraft Mods</h1>
 <ul>
     <li><a href="/downloads/expandedworlds">World Expansion (64bit and BigInteger Worldgen)</a></li>
