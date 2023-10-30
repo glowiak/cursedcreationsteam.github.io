@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Cursed Creations | Allam A's Fringelands</title>
+</svelte:head>
+
 <h1>Allam A's Fringelands Mod</h1>
 <p>The mod allows to scale noise on the X, Y and Z axes individually. There is also an offsetting feature which moves the map, along with other customization options.</p>
 <h2>Downloads for b1.7.3 (Mediafire links)</h2>
