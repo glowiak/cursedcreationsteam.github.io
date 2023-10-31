@@ -21,8 +21,8 @@
     }
 
     :global(body) {
-        background: var(--md-sys-color-background);
-        color: var(--md-sys-color-on-background);
+        background: var(--md-sys-color-surface-container);
+        color: var(--md-sys-color-on-surface);
     }
 
     :global(a) {
