@@ -34,7 +34,7 @@
         align-items: center;
         column-gap: $space;
         padding: #{$space * 0.5};
-        background: var(--md-sys-color-surface-container);
+        background: var(--md-sys-color-surface-container-high);
         min-height: 5svh;
 
         grid-template: {
