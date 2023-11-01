@@ -1,7 +1,7 @@
 name: Send Discord webhook on push
 
 on:
-  [workflow_dispatch, push]
+  [workflow_dispatch, push, pull_request]
 
 jobs:
   message:
