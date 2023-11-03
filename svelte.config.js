@@ -3,6 +3,7 @@ import preprocess from "svelte-preprocess";
 
 const config = {
 	kit: {
+		// Tells sveltekit to produce static files to upload to github pages
 		adapter: adapter({
 			pages: "docs",
 			assets: "docs",
