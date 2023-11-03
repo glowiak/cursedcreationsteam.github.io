@@ -1,8 +1,11 @@
+<!-- Code that applies to every single page -->
+<!-- <slot /> is a placeholder, it gets replaced by the html of the page currently being viewed -->
+
 <script>
     import "@material/web/iconbutton/outlined-icon-button";
     import "@material/web/icon/icon";
 
-    let navShown =  false;
+    let navShown = false;
 </script>
 
 <header>
@@ -117,6 +120,7 @@
     }
 
     // Code for everything else
+    // :global() means the css applies to all elements in the output html instead of only applying to elements in this file
     main {
         padding: 2ch;
     }

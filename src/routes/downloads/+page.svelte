@@ -1,3 +1,5 @@
+<!-- Main downloads page at /downloads -->
+
 <svelte:head>
     <title>Cursed Creations | Mod Downloads</title>
 </svelte:head>

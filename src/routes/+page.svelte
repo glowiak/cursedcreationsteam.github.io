@@ -1,3 +1,6 @@
+<!-- Homepage at / -->
+<!--  -->
+
 <svelte:head>
     <title>Cursed Creations | Home</title>
 </svelte:head>
