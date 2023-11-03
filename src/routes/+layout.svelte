@@ -38,6 +38,8 @@
     }
 
     nav {
+        position: sticky;
+        top: 0px;
         display: grid;
         align-items: center;
         column-gap: $space;
