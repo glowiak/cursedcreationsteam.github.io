@@ -127,10 +127,6 @@
         padding: 2ch;
     }
 
-    :global(p) {
-        max-inline-size: 75ch;
-    }
-
     :global(code) {
         background: var(--md-sys-color-surface-container-highest);
         color: var(--md-sys-color-on-surface);
