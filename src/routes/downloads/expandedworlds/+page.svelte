@@ -330,8 +330,8 @@
     </li>
 </ul>
 <h3>1.12.2 (mckuhei)</h3>
+<p class="note">Note: This version contains worldgen modifications (allam's patched fringelands), a clean version of the mod is currently unavailable
 <ul>
-    <p class="note">Note: This version contains worldgen modifications (allam's patched fringelands), a clean version of the mod is currently unavailable
     <li><a href="/mods/unlimited/release/1.12.2/mod.zip">v1.0.1 (modified)</a></li>
 </ul>
 <h3>1.3.2 (mckuhei)</h3>
