@@ -316,7 +316,7 @@
 <h3>mclong 1.19.2-1.20.1 (AlphaMode)</h3>
 <ul>
     <li>
-        <a href="https://github.com/AlphaMode/MinecraftLong2">Source (no installer is distributed, 'gradlew setup installerJar mclong_client' to run, installer will be found in 'projects/mclong/build/libs')</a>
+        <a href="https://github.com/AlphaMode/MinecraftLong2">Source (no installer is distributed, 'gradlew setup mclong_client' to run, jdk17 is required)</a>
     </li>
 </ul>
 <h2 id="biginteger">Unlimited Worldgen (BigInteger mods)</h2>
