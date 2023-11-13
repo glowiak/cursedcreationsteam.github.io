@@ -1,1 +1,0 @@
-<svelte:head><meta http-equiv="Refresh" content="0; url='https://discord.gg/gBXj5j55uf'" /></svelte:head>
