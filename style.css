@@ -1,0 +1,266 @@
+/* Hello there! Read the comments written before modifying certain parts of this document! -4194304 */
+
+/* Font and background color settings */
+body
+{
+    font-family:"apple-system", "BlinkMacSystemFont", "avenir next", "avenir", "segoe ui", "helvetica neue", "helvetica", "Cantarell", "Ubuntu", "roboto", "noto", "arial", "sans-serif";
+    background-color:#1C2023;
+    overflow-x:hidden;
+} 
+/* header properties, should probably be left alone */
+h1, h2, h3, h4
+{
+    color:white;
+}
+/* Normal font color and size */
+p
+{
+    color:#DFE3E7;
+    font-size:20px;
+}
+/* Navigation bar settings */
+/* You probably shouldn't change this unless you're changing its size */
+.navbar
+{
+    display:inline;
+    max-height:50px;
+    position:fixed;
+    left:-20px;
+    top:-10px;
+    z-index:5;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+/* Color of text in unordered lists */
+ul
+{
+    color:#DFE3E7;
+}
+/* Color of links, overflow-wrap is used because a link broke the mobile UI */
+a
+{
+    color:#7FD0FF;
+    transition:500ms;
+    overflow-wrap: break-word;
+}
+/* Link color when hovered */
+a:hover
+{
+    color:#bde7ff;
+    transition:500ms;
+}
+/* Navigation bar item settings. Do not change this unless you're modifying the navigation bar */
+.navbaritem
+{
+    display:inline;
+    margin-right:5px;
+    transition:500ms;
+    position:relative;
+    top:-5px;
+}
+/* "Cursed Creations" text in the navigation bar. */
+.bigtextli
+{
+    color:rgb(236, 236, 236);
+    font-size:125%;
+    margin-right:20px;
+    transition:500ms;
+    font-weight:bolder;
+}
+/* Changes the text color of items when hovered over in the navigation bar */
+.navbaritem:hover
+{
+    color:#e2ebf3;
+    transition:500ms;
+}
+/* Same as last one but for the "Cursed Creations" text */
+.bigtextli:hover
+{
+    color:white;
+    transition:500ms;
+}
+/* Don't modify this unless you want the page to become messed up */
+#main
+{
+    position:relative;
+    top:30px;
+}
+/* Background behind navigation bar. Only change this if you know what you're doing. */
+.navbg
+{
+    background-color:#262B2E;
+    position:fixed;
+    min-width:200%;
+    top:-25px;
+    left:-20px;
+    min-height:50px;
+    z-index:4;
+    padding-top:10px;
+}
+/* h1 font size */
+h1 .h1
+{
+    font-size:calc(1.375rem + 1.5vw);
+}
+/* h2 font size */
+h2
+{
+    font-size:calc(1.325rem + .9vw);
+}
+/* h3 font size */
+h3
+{
+    font-size:calc(1.3rem + .6vw);
+}
+/* h4 font size */
+h4
+{
+    font-size:calc(1.275rem + .3vw);
+}
+/* DO NOT CHANGE THIS */
+/* These following two settings are mobile screen related */
+@media screen and (max-width: 600px) {
+    /* Menu, don't change */
+    #navbarmobile {
+        display:inline;
+      }
+    .navbar {
+      display:none;
+        }
+    /* Fixes anything below 1.8-64bit. */
+        .moveright
+        {
+            position:relative;
+            right:120px;
+        }
+    }
+@media screen and (min-width: 601px) {
+    /* Menu, don't change */
+    #navbarmobile {
+      display:none;
+        }
+    #navitem {
+        display:none;
+          }
+        }
+#navbarmobile
+{
+    display:inline;
+    max-height:50px;
+    position:fixed;
+    left:-20px;
+    top:-10px;
+    z-index:5;
+    padding-top:10px;
+    padding-bottom:10px;
+    image-rendering:pixelated;
+}
+/* Menu icon, change the right and top elements if uncentered */
+#navitem
+{
+    position:fixed;
+    top:15px;
+    right:135px;
+}
+/* Menu contents */
+#menu
+{
+    z-index:3;
+    display:none;
+    position:fixed;
+    top:75px;
+    right:50px;
+    text-align:center;
+}
+/* Items in the menu */
+.menuitem
+{
+    transition:500ms;
+    position:relative;
+    right:120px;
+}
+/* Text color changes on hover */
+.menuitem:hover
+{
+    color:#e2ebf3;
+    transition:500ms;
+}
+/* Nothing useful here */
+#navitemclose
+{
+    position:fixed;
+    right:18px;
+    top:15px;
+    display:none;
+}
+/* Coloring of the menubar links and the links in the fullscreen menu */
+.nocoloringlink
+{
+    color:#ADB5BD;
+    text-decoration:none;
+}
+/* Next four are related to the scrollbar */
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+/* Scrollbar background color */
+::-webkit-scrollbar-track {
+    background-color:#212529;
+}
+  
+/* The scrollbar doesn't change colors when hovered over because the transition attribute didn't work. */
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb {
+    background: #373e44; 
+    transition:500ms;
+}
+/* Svelte parity code begins here, please note that there are changes above. */
+
+/* We will no longer be distributing deobfuscated mods... text */
+.unsupportedmods
+{
+    background-color:#93000A;
+    padding:12px;
+}
+/* List decorations */
+li
+{
+    list-style-type:disc;
+    font-size:20px;
+}
+/* Blame Zero for this, also I need someone to optimize the HTML */
+#blamezero
+{
+    position:relative;
+    top:20px;
+    left:120px;
+}
+/* That fix broke the rest of the 64bit section. oops */
+.blamezero2
+{
+    position:relative;
+    left:125px;
+}
+
+/* Theming buttons, don't mess with this */
+.changesection
+{
+    position:fixed;
+    left:95%;
+    top:-25px;
+    list-style-type:none;
+}
+/* Dark mode text, don't change */
+#dark
+{
+    display:none;
+}
+/* Classic mode text */
+#classic
+{
+    display:none;
+}

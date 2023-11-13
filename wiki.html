@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cursed Creations | Wiki</title>
+	<link rel="icon" type="image/x-icon" href="assets/cursedcreations.png">
+        <link href="style.css" rel="stylesheet"><meta name="description" content="Formerly Connection Terminated, we are a group of people dedicated to breaking Minecraft. Est 2020.">
+        <meta property="og:title" content="Cursed Creations">
+        <meta property="og:url" content="https://cursedcreationsteam.github.io">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Formerly Connection Terminated, we are a group of people dedicated to breaking Minecraft. Est 2020.">
+        <meta property="og:image" content="cursedcreations.png">
+        <meta property="twitter:card" content="summary">
+        <meta property="twitter:domain" content="cursedcreationsteam.github.io">
+        <meta property="twitter:url" content="https://cursedcreationsteam.github.io">
+        <meta name="twitter:description" content="Formerly Connection Terminated, we are a group of people dedicated to breaking Minecraft. Est 2020.">
+        <meta name="twitter:image" content="/cursedcreations.png">
+    </head>
+    <body>
+        <!-- Header -->
+		<div class="nav">
+            <ul class="navbar">
+                <li class="navbaritem"><b class="bigtextli">Cursed Creations</b></li>
+                <a class="nocoloringlink" href=index.html><li class="navbaritem">Home</li></a>
+                <a class="nocoloringlink" href=downloads/index.html><li class="navbaritem">Mods</li></a>
+                <a class="nocoloringlink" href=wiki.html><li class="navbaritem">Wiki</li></a>
+            </ul>
+            <ul onload="menufix()" id="navbarmobile">
+                <li class="navbaritem"><b class="bigtextli">Cursed Creations</b></li>
+                <li class="navbaritem" onclick="menuopen()"><img id="navitem" src="assets/menu/navitem.png" width="32px" height="32px"></img></li>
+                <li class="navbaritem" onclick="menuclose()"><img id="navitemclose" src="assets/menu/navitem.png" width="32px" height="32px"></img></li>
+            </ul>
+            <div id="menu">
+                <a class="nocoloringlink" href=index.html><p class="menuitem">Home</p></a>
+                <a class="nocoloringlink" href=downloads/index.html><p class="menuitem">Mods</p></a>
+                <a class="nocoloringlink" href=wiki.html><p class="menuitem">Wiki</p></a>
+            </div>
+        <p class="navbg">&nbsp;</p>
+    </div>
+    <div id="main">
+        <br>
+		<ul>
+		<h1 id="wiki">Wiki</h1>
+
+		<h3 id="how-to-install">How to Install (Jarmods)</h3>
+		For MultiMC-based launchers: create a new instance using the version that you wish to use and make sure all resources needed are downloaded. Edit that instance and add the mod you want to install as a jarmod using the "Add to Minecraft.jar" feature. For inf-20100630, also install <a href="https://repo1.maven.org/maven2/systems/manifold/manifold-all/2023.1.3/manifold-all-2023.1.3.jar">Manifold</a> as a jarmod for inf-20100630 BigInteger by adding it the same way.
+		For the official Minecraft Launcher (current version) and PojavLauncher: navigate to your .minecraft folder and open versions. Make sure you have already ran the version that the mod you want to install is based on. Make a copy of that folder in your versions directory and rename it and the files inside to something like `version-mod` where `version` is the Minecraft version base you are using and `mod` is the mod you are installing (ie: 64bit, BigInt, etc). Edit the json and delete everything between "client" and (but not including) "server". Then find where it says `"id": version` and change the version to what you named the files previously. Save everything and reopen your launcher. Please note, 1.3.2-BigInteger will likely not work on PojavLauncher without patching.
+		<!-- TODO: Add images -->
+		</ul>
+        <script src="script.js"></script>
+    </div>
+    </body>
+</html>
